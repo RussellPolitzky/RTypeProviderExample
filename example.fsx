@@ -12,6 +12,9 @@ open RProvider.zoo
  
 open System
 open System.Net
+open System.Diagnostics
+
+Debugger.Launch() |> ignore
 
 // URL of a service that generates price data
 let url = "http://ichart.finance.yahoo.com/table.csv?s="
